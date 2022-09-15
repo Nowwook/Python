@@ -1,3 +1,5 @@
+// 모듈 ejs, express
+
 const express = require('express')
 const ejs = require('ejs')
 
