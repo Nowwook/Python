@@ -4,7 +4,10 @@ require('dotenv').config({path: 'mysql/.env'})
 
 const mysql = require('./mysql')
 const ejs = require('ejs')
+
 const methodOverride = require('method-override')
+// put,delete 사용하기 위헤
+
 const app = express()
 
 /* 환경설정 */
