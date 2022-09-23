@@ -1,7 +1,8 @@
 const express =require('express')
+// 순서 주의
 require('dotenv').config({path: 'mysql/.env'});
-
 const mysql = require('./mysql')
+
 const app = express()
 
 app.listen(3000, () => {
