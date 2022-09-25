@@ -10,10 +10,12 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(); //줄 띄워서
-            Console.Write("문자" + B); //줄 붙여서
-            Console.WriteLine($"{A} * {B} = {A * B}"); //여러개
-            Console.WriteLine("ㅁ{0,7:D}", "0번자리"); //0번째를 7칸 중에 뒤로 붙이기(-7 앞에 붙이기)
+            Console.WriteLine();    //줄 띄워서
+            Console.Write();        //줄 붙여서
+            
+            Console.WriteLine($"{A} * {B} = {A * B}");      // 사칙연산
+            
+            Console.WriteLine("ㅁ{0,7:D}", "0번자리");      // 0번째를 7칸 중에 뒤로 붙이기(-7 앞에 붙이기)
             Console.Write("{0,2:D},{1,2:D},{2,2:D}", "0번", "1번", "2번");
 
             /*
@@ -24,7 +26,7 @@ namespace MyApp
             E - 지수("{0:E}", 1234.567) == 1.234567E+003)
             */
 
-            string.Format("{0,-8}DEF", "ABC");              // ABC DEF
+            Console.WriteLine("{0,-8}DEF", "ABC");          // ABC DEF
 
             string 이름 = "{0,-20}{1,-15}{2,30}";           // 0번째는 20칸 앞에부터
             Console.WriteLine(이름, "abcdef", "efgh", "asda");
@@ -36,7 +38,21 @@ namespace MyApp
             \S 채워진 공간
             \r 그 줄 맨앞
             */
+            
+            //----------------------------------
+            
+            // for, foreach
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
 
+            int[] arr = new[] { 0, 1, 2, 3, 4 };
+            foreach (int i in arr)        //배열 순서대로 출력(타입 변수명 in 배열이름)
+            {
+                Console.WriteLine(i);
+            }
+            
             while (true)     // 조건
             {
                 // 반복 실행
@@ -49,7 +65,11 @@ namespace MyApp
             }
             while (true);   // 이 조건이면 반복
 
-
+            /*
+            break       반복문 중단
+            continue    해당 반복문 넘어가기
+            */
+            
             // 스위치 문
             int a = 0;
             switch (a)      // 받은 값
@@ -75,6 +95,57 @@ namespace MyApp
                 case "일요일":
                     Console.WriteLine("휴일입니다.");
                     break;
+            }
+            
+            //----------------------------------
+            
+            Convert.ToString(123456, 2);        // 2진수로 변환 (8진수,16진수 가능)
+
+            Random random = new Random();       // 랜덤
+            int x = random.Next(1, 45);         // 1~44
+
+
+            // string[] A >> int[] B        배열 형식 변환
+            string[] A = Console.ReadLine().Split(' ');
+            int[] B = Array.ConvertAll(A, (e) => int.Parse(e));
+
+
+            ConsoleKeyInfo ky = Console.ReadKey();  //키보드인식
+            Console.WriteLine(ky.Key);              //키
+            Console.WriteLine(ky.KeyChar);          //유니코드
+            Console.WriteLine(ky.Modifiers);        // Ctrl, shift, alt
+            
+            //----------------------------------
+            
+            try
+            {
+                //실행할 문장
+            }
+            catch (Exception ex)        // Exception ex : 모든 에러
+            {
+                //예외 일때 실행
+            }
+            finally
+            {
+                //무조건 반환
+            }
+
+            try
+            {
+                Console.WriteLine("첫 실행"); 
+                Console.WriteLine("exception 발생"); // 여기부터 실행 안됨
+
+                Console.WriteLine("실행안됨");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("두번째 실행"); 
+                return "네번째 실행"; 
+            }
+            finally
+            {
+                Console.WriteLine("세번째 실행");
+                // finally 안에서 Exception 발생 예상시, finally 안에서 try 사용
             }
         }
     }
