@@ -1,0 +1,148 @@
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\server123.exe.config
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\server123.exe
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\server123.pdb
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.Form1.resources
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.Properties.Resources.resources
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.exe
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.pdb
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Buffers.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Memory.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Buffers.xml
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Memory.xml
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.csproj.CopyComplete
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.Form2.resources
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.Form3.resources
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Admin\source\repos\server123\server123\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Admin\source\repos\server123\server123\obj\Debug\server123.Form4.resources
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\server123.exe.config
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\server123.exe
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\server123.pdb
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Memory.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Memory.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Downloads\server123\server123\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.Form1.resources
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.Form2.resources
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.Form3.resources
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.Form4.resources
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.Properties.Resources.resources
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.csproj.CopyComplete
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.exe
+C:\Users\Admin\Downloads\server123\server123\obj\Debug\server123.pdb
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\server123.exe.config
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\server123.exe
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\server123.pdb
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Memory.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Memory.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.Form1.resources
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.Form2.resources
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.Form3.resources
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.Form4.resources
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.Properties.Resources.resources
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.csproj.CopyComplete
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.exe
+C:\Users\Admin\Desktop\project 1\server123\server123\obj\Debug\server123.pdb
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\server123.exe.config
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\server123.exe
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\server123.pdb
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Memory.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Text.Json.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Memory.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Text.Json.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Desktop\project 1\server\server123\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.Form1.resources
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.Form2.resources
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.Form3.resources
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.Form4.resources
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.Properties.Resources.resources
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.csproj.CopyComplete
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.exe
+C:\Users\Admin\Desktop\project 1\server\server123\obj\Debug\server123.pdb
