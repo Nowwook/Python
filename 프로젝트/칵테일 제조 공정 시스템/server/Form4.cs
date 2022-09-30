@@ -56,13 +56,5 @@ namespace server123
             cmd.CommandText = "commit";
             conn.Close();
         }
-
-        private void Form4_Load(object sender, EventArgs e)
-        {
-        }
-        private void chart1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
