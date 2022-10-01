@@ -40,23 +40,17 @@ namespace MyApp_Mathod
                 Console.WriteLine("곱셈 :" + cal.mutiple(a, b));
                 Console.WriteLine("나눗셈 :" + cal.divide(a, b));
             }
+            
+            static void Swap(ref int a ,ref int b)
+            {
+                int temp = a + b;
+                Console.WriteLine($"{temp}");
+            }
+            static void Main2()
+            {
+                int a = 100, b = 200;
+                Console.WriteLine($"{a},{b}");
+                Swap(ref a, ref b);
+            }
         }
-        
-        
-//----------------------------------------------       
-        
-    internal class Program
-    {
-        static void Swap(ref int a ,ref int b)
-        {
-            int temp = a + b;
-            Console.WriteLine($"{temp}");
-        }
-        static void Main(string[] args)
-        {
-            int a = 100, b = 200;
-            Console.WriteLine($"{a},{b}");
-            Swap(ref a, ref b);
-        }
-    }
 }
