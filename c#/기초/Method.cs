@@ -27,6 +27,16 @@ namespace MyApp_Mathod
             return a / b;
         }
     }
+    
+    class Calculator2
+    {
+        public int sum(int a, int b, int c, int d)
+        {
+            return a + b + c + d;
+        }
+    }
+    
+    
     internal class Program
         {
             static void Main(string[] args)
@@ -53,5 +63,10 @@ namespace MyApp_Mathod
                 Swap(ref a, ref b);
             }
             */
+        
+            Calculator2 cal = new Calculator2();
+            int total = cal.sum(100, 200, 300, 400);
+            Console.WriteLine(total);
+        }
         }
 }
