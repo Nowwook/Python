@@ -10,6 +10,19 @@ namespace My
     {
         static void Main(string[] args)
         {
+            if (조건식) 
+            {
+                // 참일 경우에 실행될 문장
+            } 
+            else if (조건식) 
+            {
+                // 참일 경우에 실행될 문장
+            } 
+            else 
+            {
+                // 위의 조건식에 아무것도 해당하지 않을때 실행될 문장
+            }
+            
             byte b = 250; // 8비트 = 1byte : -128 ~ +127 , unsigned 0~255
             short s = b;  // 16비트 = 2byte ,-32768 ~ +32767 , 묵시적 형변환
             s = 256;
