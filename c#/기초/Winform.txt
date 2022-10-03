@@ -21,4 +21,8 @@ Zoom		PictureBox의 크기에 맞추어 이미지를 확대 또는 축소해 표
 Debug.writeline()
 Trace.writeline()
 
+커서 위치
+textBox1.Focus()
 
+선택된 값
+listBox1.selectedItem
