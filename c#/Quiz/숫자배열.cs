@@ -111,26 +111,50 @@ namespace Format_Q01
                 Console.Write(C[i] + "\t");
             }
             Console.WriteLine();
+            
             Console.WriteLine("---------------");
-            Console.WriteLine("달이 배열 크기 입력");
-            int num = Int32.Parse(Console.ReadLine());
-            int[,] num_arr = new int[num, num];
-            int cnt = 1;
-            for (int i = 0; i < num; i++)
+            Console.WriteLine("입력 :");
+            int A = int.Parse(Console.ReadLine());
+            for (int t = A; t > 0; t--)
             {
-                for (int j = 0; j < num; j++)
+                for (int q = 0; q > -A; q--)
                 {
-                    num_arr[i, j] = cnt;
-                    cnt++;
-                }
-            }
-            for (int i = num - 1; i >= 0; i--)
-            {
-                for (int j = num - 1; j >= 0; j--)
-                {
-                    Console.Write(num_arr[i, j] + "\t");
+                    Console.Write(t * A + q + "\t");
                 }
                 Console.WriteLine();
+            }
+            
+            Console.WriteLine("--------달팽이-----------------");
+            Console.WriteLine("입력 :");
+            int B = Int32.Parse(Console.ReadLine());
+            int[,] num = new int[B, B];
+            int w = 0, j = -1, k = 0, n = 1,p=B;
+            while (true)
+            {
+                for (int t = 0; t < B; t++)
+                {
+                    k++;
+                    j = j + n;
+                    num[w, j] = k;
+                }
+                B = B - 1;
+                if (B <= 0) break;
+                for (int m = 0; m < B; m++)
+                {
+                    k++;
+                    w = w + n;
+                    num[w, j] = k;
+                }
+                n *= -1;
+            }
+            for (int q = 0; q < p; q++)
+            {
+                for (int l = 0; l < p; l++)
+                {
+                    Console.Write(num[q, l] + "\t");
+                }
+                Console.WriteLine();
+            }
             }
         }
     }
