@@ -73,6 +73,23 @@ namespace MyApp_Q11
                 }
                 Console.WriteLine(d);
             }
+            Console.WriteLine("~~~~~~~~~~~~~ 마모");
+            int num = Int32.Parse(Console.ReadLine());
+            for (int i = 1; i <= num; i++)
+            {
+                if (i <= (num / 2) + 1)
+                {
+                    string a = new string(' ', (num / 2) + 1 - i);
+                    string b = new string('*', (i * 2) - 1);
+                    Console.WriteLine(a + b);
+                }
+                else
+                {
+                    string c = new string(' ', i - (num / 2) - 1);
+                    string d = new string('*', (num * 2) - ((i - 1) * 2) - 1);
+                    Console.WriteLine(c + d);
+                }
+            }
         }
     }
 }
