@@ -15,3 +15,7 @@ b
 x
 
 shift + tap
+
+오류메세지 제거
+import warnings
+warnings.filterwarnings('ignore')
