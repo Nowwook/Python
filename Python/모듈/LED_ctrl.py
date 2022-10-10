@@ -26,6 +26,22 @@ try:
             else:
                 bin_num = bin_num[-8:]
                 break
+                
+#        or
+#        while True:
+#             if num1 == 1 or num1 == 0:
+#                 binary.insert(0,num1)                
+#                 # 2진수 리스트의 개수를 8개로 맞춤 
+#                 while len(binary) != LED_NUM:
+#                     binary.insert(0,0)
+#                 print(binary)                    
+#                 break
+#             temp = num1
+#             num1 = temp//2       # 몫
+#             num2 = temp%2        # 나머지 
+#             binary.insert(0,num2)
+#             print(binary)
+                
         # 2진수 리스트를 LED에 표시
         for i in range(LED_NUM):
             GPIO.output(LED[i], int(bin_num[(LED_NUM-1)-i]))
