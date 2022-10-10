@@ -17,15 +17,16 @@ try:
     GPIO.output(DC_M[0], GPIO.LOW)
     GPIO.output(DC_M[1], GPIO.HIGH)
     
-    # 속도 점점 증가하다 0 반복
+    # 속도 점점 증가,감소 반복
     while True:
-        if cnt < 100:
-            cnt += 1
-        else:
-            cnt = 0
-        print(cnt)
-        DC_EN.ChangeDutyCycle(cnt)
-        time.sleep(0.3)
+        for i in range(100):
+            cnt += 1    
+            DC_EN.ChangeDutyCycle(cnt)  
+            time.sleep(0.1)
+        for j in range(100):
+            cnt -= 1
+            DC_EN.ChangeDutyCycle(cnt)
+            time.sleep(0.1)
        
 finally:
     GPIO.cleanup()   
