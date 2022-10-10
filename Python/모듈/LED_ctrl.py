@@ -41,7 +41,18 @@ try:
 #             num2 = temp%2        # 나머지 
 #             binary.insert(0,num2)
 #             print(binary)
-                
+#        or
+#        while True:
+#           A = []
+#           num = int(input('숫자를 입력하시오(256> ): '))
+#           for i in range(8):
+#               b = num%2
+#               num = num//2
+#               A.insert(0, b)
+#           for i in range(len(A)):    
+#               GPIO.output(LED[i], A[i])
+            
+            
         # 2진수 리스트를 LED에 표시
         for i in range(LED_NUM):
             GPIO.output(LED[i], int(bin_num[(LED_NUM-1)-i]))
