@@ -19,7 +19,7 @@ try:
     
     # 속도 점점 증가하다 0 반복
     while True:
-        if cnt < 70:
+        if cnt < 100:
             cnt += 1
         else:
             cnt = 0
