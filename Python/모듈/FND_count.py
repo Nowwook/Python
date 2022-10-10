@@ -67,7 +67,6 @@ t.start()
 
 try:
     while True:
-        # 프로그램 작성
         pass
        
 finally:
