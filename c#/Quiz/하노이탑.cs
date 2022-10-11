@@ -57,4 +57,24 @@ namespace MyApp_Quiz18
             Console.WriteLine(sb);
         }
     }
+    
+    or
+    
+    internal class Program
+    {
+        static void hanoi(int n, int x, int y, int z)
+       {
+            if (n > 0)
+            {
+                hanoi(n - 1, x, z, y);
+                Console.WriteLine($"{x} -> {z}"+"\t");
+                hanoi(n - 1, y, x, z);
+            }
+        }
+        static void Main(string[] args)
+        {
+            // ex
+            hanoi(3, 1, 2, 3);
+        }
+    }
 }
