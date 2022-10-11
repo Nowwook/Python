@@ -27,7 +27,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApp_Quiz18
+namespace MyApp
 {
     internal class Program
     {
