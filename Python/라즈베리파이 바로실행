@@ -1,0 +1,7 @@
+전원 연결시 실행하기 (루트 계정)
+
+터널에서 rc.local 찾기
+sudo vi /etc/rc.local
+
+exit 0 위에 파일 경로 입력
+sudo python /home/uk/저장이름.py &
