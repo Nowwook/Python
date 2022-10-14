@@ -46,3 +46,10 @@ BFILE 	대용량 이진 파일에 대한 위치,이름 저장
 '1,300' - 1500  에러
 
 연산순위 not > and > or
+
+hr계정을 오픈하는 방법 (중요)
+sqlplus 열기 > 접속
+$sqlplus system/[설치시 넣은 패스워드]
+ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
+CONN hr/hr
+
