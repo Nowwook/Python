@@ -1,3 +1,17 @@
+다운후 서비스에서 실행확인
+
+hr(연습용)계정을 오픈하는 방법 (중요)
+- cmd 관리자권한으로 실행 > sqlplus > system,비번 > alter user hr identified by hr account unlock; > conn hr/hr
+
+- cmd 일반실행
+- sqlplus 
+- sqlplus system/패스워드
+- CONN hr/hr
+- exit 
+
+글꼴, 행번호
+도구 > 환경설정 > 코드편집기
+
 삽입 	insert 	Create
 검색 	select 	Read
 수정 	update 	Update
@@ -46,10 +60,4 @@ BFILE 	대용량 이진 파일에 대한 위치,이름 저장
 '1,300' - 1500  에러
 
 연산순위 not > and > or
-
-hr계정을 오픈하는 방법 (중요)
-sqlplus 열기 > 접속
-$sqlplus system/[설치시 넣은 패스워드]
-ALTER USER hr IDENTIFIED BY hr ACCOUNT UNLOCK;
-CONN hr/hr
 
