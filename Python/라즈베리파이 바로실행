@@ -5,3 +5,21 @@ sudo vi /etc/rc.local
 
 exit 0 위에 파일 경로 입력
 sudo python /home/uk/저장이름.py &
+
+/////////////
+
+cron  crontap 이용
+
+crontap -l  리스트
+crontap -e      옵션
+crontap -r      모두삭제
+
+sudo crontab -e
+
+마지막줄에
+@reboot sudo python3 /home/pi/이름.py
+
+///////////
+
+sudo nano /home/pi/.bashrc
+sudo python3 /home/pi/이름.py 
