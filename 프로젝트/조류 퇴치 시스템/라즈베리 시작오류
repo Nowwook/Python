@@ -1,0 +1,7 @@
+SD카드의 폴더 중 BOOT폴더의 
+
+config.txt 파일을 열어서
+
+hdmi_force_hotplug=1 # 삭제
+hdmi_drive=2  # 삭제
+저장
