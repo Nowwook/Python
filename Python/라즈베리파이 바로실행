@@ -8,7 +8,7 @@ sudo python /home/uk/저장이름.py &
 
 /////////////
 
-cron  crontap 이용
+cron  cronta 이용
 
 crontap -l  리스트
 crontap -e      옵션
