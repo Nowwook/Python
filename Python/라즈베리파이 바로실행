@@ -8,11 +8,11 @@ sudo python /home/uk/저장이름.py &
 
 /////////////
 
-cron  cronta 이용
+cron  crontab 이용
 
-crontap -l  리스트
-crontap -e      옵션
-crontap -r      모두삭제
+crontab -l  리스트
+crontab -e      옵션
+crontab -r      모두삭제
 
 sudo crontab -e
 
