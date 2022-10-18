@@ -1,0 +1,9 @@
+ps -A  :  실행중인 프로세서 찾기
+
+ps -A | grep python*   :  python 이름 들어간 프로세서
+
+python* python   :  python 관련 파일
+
+*   :  모든파일
+
+sudo kill  +번호  :  좀비 프로세서 죽이기
