@@ -18,3 +18,6 @@ while True:
     p.mixer.music.load( "1.mp3" )
     p.mixer.music.play(2)
     time.sleep(15)
+
+# 끝까지 재생할때까지 기다린다.
+# if(p.mixser.music.get_busy()==False): 
