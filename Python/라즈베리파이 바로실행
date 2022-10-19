@@ -23,3 +23,10 @@ sudo crontab -e
 
 sudo nano /home/pi/.bashrc
 sudo python3 /home/pi/이름.py 
+
+//////////////
+오디오, 영상에 잘됨
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+
+@/usr/bin/python /home/pi/이름.py
+마지막 2번째 줄
