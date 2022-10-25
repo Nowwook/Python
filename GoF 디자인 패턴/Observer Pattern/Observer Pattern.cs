@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Observer_Pattern_3
+namespace Observer_Pattern
 {
     internal class Program
     {
