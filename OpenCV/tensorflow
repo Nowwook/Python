@@ -30,6 +30,9 @@ pip list
 가상환경 확인
 conda info --envs
 
+파이썬 실행
+code.
+
 ipykernel 설치
 conda install ipykernel
 
