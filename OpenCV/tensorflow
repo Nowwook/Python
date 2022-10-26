@@ -1,0 +1,54 @@
+tensor = n 차원 행열
+
+Scalar = 0 차원
+Vector = 1 차원
+Matrix = 2 차원
+Tensor = 3 차원
+
+설치 프로그램
+- Anaconda
+- 파이썬 3.x
+- Jupyter lab
+- Vs code
+
+가상환경 만들기
+conda create --name 이름(cv_dnn) python=3.9
+
+가상환경 활성화 / 비활성화
+conda activate cv_dnn
+conda deactivate
+
+가상환경 삭제
+conda env remove --n 이름
+
+버전 확인
+python --version
+
+설치 패키지 확인
+pip list
+
+가상환경 확인
+conda info --envs
+
+ipykernel 설치
+conda install ipykernel
+
+ipykernel 에 가상환경 이름 만들기
+python -m ipykernel install user name 가상환경이름 display name 가상환경 표시이름
+
+ipykernel 에 추가한 가상환경 삭제
+jupyter kernelspec uninstall cv_dnn
+
+tensorflow 설치
+conda install tensorflow / conda install tensorflow =2.6
+
+OpenCV
+설치
+-
+메인 모듈 (
+pip install
+opencv python
+-
+메인 모듈과 확장 모듈 포함
+pip install
+opencv contrib python
