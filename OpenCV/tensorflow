@@ -33,6 +33,9 @@ conda info --envs
 ipykernel 설치
 conda install ipykernel
 
+주피터랩 설치
+pip install jupyterlab
+
 ipykernel 에 가상환경 이름 만들기
 python -m ipykernel install user name 가상환경이름 display name 가상환경 표시이름
 
@@ -42,13 +45,16 @@ jupyter kernelspec uninstall cv_dnn
 tensorflow 설치
 conda install tensorflow / conda install tensorflow =2.6
 
-OpenCV
-설치
--
-메인 모듈 (
-pip install
-opencv python
--
-메인 모듈과 확장 모듈 포함
-pip install
-opencv contrib python
+OpenCV설치
+- 메인 모듈
+  pip install opencv-python
+- 메인 모듈과 확장 모듈 포함
+  pip install opencv-contrib-python
+
+Anaconda 환경에서 dlib 설치 (face recognition 시 필요)
+conda install -c conda-forge dlib
+conda install -c conda-forge/label/cf201901 dlib
+conda install -c conda-forge/label/cf202003 dlib
+
+face_recognition 라이브러리 제공
+pip install face_recognition
