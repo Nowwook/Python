@@ -12,10 +12,10 @@ hr(연습용)계정을 오픈하는 방법 (중요)
 글꼴, 행번호
 도구 > 환경설정 > 코드편집기
 
-삽입 	insert 	Create
-검색 	select 	Read
-수정 	update 	Update
-삭제 	delete 	DELETE
+DML(Data Manipulation Language)	    select, insert, update, delete  
+DDL(Data Definition Language)	      create, alter, drop, rename, truncate
+TCL(Transaction Control Language)	  commit, rollback, savepoint
+DCL(Data Control Language)		      grant, revoke
 
 daemon 프로그램
 백그라운드에서 동작, 서비스 요청이 오면 동작
