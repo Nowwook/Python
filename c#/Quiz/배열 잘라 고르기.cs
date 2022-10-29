@@ -1,6 +1,6 @@
 // ex) a = [1, 5, 2, 6, 3, 7, 4]
 //  [i, j, k] = [2, 5, 3]
-//  a의 2~5번째 골라서 정리 후 3번째
+//  a의 2~5번째 골라서 오름차순 정열 후 3번째
 
 using System;
 using System.Collections.Generic;
