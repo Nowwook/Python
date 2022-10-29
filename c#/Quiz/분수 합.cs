@@ -1,29 +1,21 @@
 using System;
 
+// denum1 / num1 + denum2 / num2 = 기약분수
+
 public class Solution {
     public int[] solution(int denum1, int num1, int denum2, int num2) {
-        int[] answer = new int[2] ;
-        int a, b, r;
-        
-        if (num1 >= num2)
-        {
-            a = num1;
-            b = num2;
-        }
-        else
-        {
-            a = num2;
-            b = num1;
-        }
-        while (true)
-        {
-            r = a % b;
-            a = b;
-            b = r;
-            if (r == 0) break;
-        }
-        answer[1] = num1 * num2 / a;
-        answer[0] = denum1 * answer[1] / num1 + denum2 * answer[1] / num2;
-        return answer;
+        var denum = denum1 * num2 + denum2 * num1;
+        var num = num1 * num2;
+        var gcd = Gcd(denum, num);
+        return new[] { denum / gcd, num / gcd };
+    }
+
+    public int Gcd(int a, int b)
+    {
+        if (b == 0)
+            return a;
+        if (a < b)
+            return Gcd(b, a);
+        return Gcd(b, a % b);
     }
 }
