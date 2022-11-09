@@ -1,3 +1,5 @@
+# 검은색으로 구분된 부분만 구분
+
 import cv2
 import numpy as np
 from scipy.spatial import distance as dist
