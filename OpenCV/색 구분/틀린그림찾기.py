@@ -11,7 +11,7 @@ grayB = cv2.cvtColor(imageB, cv2.COLOR_BGR2GRAY)
 (score, diff) = compare_ssim(grayA, grayB, full=True)
 
 diff = (diff * 255).astype("uint8")
-print(f"SSIM: {score}")
+# print(f"SSIM: {score}")     # 두 사진의 유사도, 1이면 같은 사진
 
 thresh = cv2.threshold(
                 diff, 0, 200, 
@@ -27,8 +27,9 @@ for c in cnts:
     area = cv2.contourArea(c)
     if area > 40:
         x, y, w, h = cv2.boundingRect(c)
-        cv2.rectangle(imageA, (x, y), (x + w, y + h), (0, 0, 255), 2)
-        cv2.drawContours(imageB, [c], -1, (0, 0, 255), 2)
+        # 다른 부분 네모 표시
+        cv2.rectangle(imageA, (x, y), (x + w, y + h), (0, 0, 255), 2) 
+        cv2.rectangle(imageB, (x, y), (x + w, y + h), (0, 0, 255), 2)
         
 cv2.imshow("Original", imageA)
 cv2.imshow("Modified", imageB)
