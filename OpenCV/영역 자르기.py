@@ -28,18 +28,18 @@ cv2.destroyAllWindows()
 '''
 
 #  가우시안 블러 이용하여 배경과 구분
-blur = cv2.GaussianBlur(image_gray, ksize=(3,3), sigmaX=0)
-ret, thresh1 = cv2.threshold(blur, 127, 255, cv2.THRESH_BINARY)
+# blur = cv2.GaussianBlur(image_gray, ksize=(3,3), sigmaX=0)
+# ret, thresh1 = cv2.threshold(blur, 127, 255, cv2.THRESH_BINARY)
 
 blur = cv2.GaussianBlur(image_gray, ksize=(5,5), sigmaX=0)
 ret, thresh1 = cv2.threshold(blur, 127, 255, cv2.THRESH_BINARY)
 
-# Canny를 이용하여 모서리 찾기
+# Canny를 이용하여 테두리 찾기
 edged = cv2.Canny(blur, 10, 250)
 # cv2.imshow('Edged', edged)
 # cv2.waitKey(0)
 
-# 엣지 이미지로 closed를 찾기
+# 작은 홈, 작은 홀들이 사라지고, 얇은 연결선이 두꺼워 짐
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (7,7))
 closed = cv2.morphologyEx(edged, cv2.MORPH_CLOSE, kernel)
 # cv2.imshow('closed', closed)
