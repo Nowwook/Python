@@ -1,6 +1,8 @@
 import cv2
 import pyzbar.pyzbar as pyzbar
 
+# 라즈베리파이 설치 pip3 apt install pyzbar
+
 img = cv2.imread("../Image/r4.png")       
 
 # gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
