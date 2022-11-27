@@ -21,7 +21,9 @@ def setLabel(image, str, contour):
    pt = (x + int((width - text_width) / 2), y + int((height + text_height) / 2))
    cv2.putText(image, str, pt, fontface, scale, (255, 255, 255), thickness, 8)
 
-
+global cnt
+cnt=0
+   
 # 컨투어 내부의 색을 평균내서 red, green, blue 중 어느 색인지 체크
 def label(image, contour):
    mask = np.zeros(image.shape[:2], dtype="uint8")
@@ -37,7 +39,12 @@ def label(image, contour):
 
        if d < minDist[0]:
            minDist = (d, i)
-
+   
+   cnt1, _ = cv2.connectedComponents(mask)   # 개수 카운트
+   global cnt
+   if cnt1 ==1:
+      cnt+=1
+      
    return colorNames[minDist[1]]
 
 
@@ -92,5 +99,6 @@ for contour in contours:
    color_text = label(img_lab, contour)
    setLabel(image, color_text, contour)
 
+print('cnt1:', cnt)     # 개수 
 cv2.imshow("Image", image)
 cv2.waitKey(0)

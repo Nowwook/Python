@@ -1,0 +1,5 @@
+img = cv2.imread('A.jpg', cv2.IMREAD_COLOR)
+
+cv2.IMREAD_COLOR	    RGB 로 읽기 (default)
+cv2.IMREAD_GRAYSCALE	Graysacle 로 읽기
+cv2.IMREAD_UNCHANGED	파일 속성 그대로 읽기
