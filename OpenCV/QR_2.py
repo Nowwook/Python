@@ -1,7 +1,7 @@
 import cv2
 import pyzbar.pyzbar as pyzbar
 
-# 라즈베리파이 설치 pip3 apt install pyzbar
+# 라즈베리파이 설치 pip3 install pyzbar
 
 img = cv2.imread("../Image/r4.png")       
 
