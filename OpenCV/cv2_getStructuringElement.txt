@@ -1,0 +1,13 @@
+커널과 같은 역할을 하는 구조화 요소
+getStructuringElement(1,2,(3)) 함수
+
+1. shape : 구조화 요소 커널의 모양
+    - cv2.MORPH_CROSS : 십자가형
+    - cv2.MORPH_ELLIPSE : 타원형
+    - cv2.MORPH_RECT : 직사각형
+
+2. ksize : 구조화 요소 커널의 크기
+3. anchor : 구조화 요소 커널의 기준점. 
+   default 값 (-1, -1)은 기준점을 중심으로 잡는다. 
+   해당 값은 오직 cv2.MORPH_CROSS 모양을 사용할 때만 영향을 준다. 
+   cv2.MORPH_CROSS의 경우에는 해당 기준점이 있는 열과 행의 값만 1로 채워진다.
