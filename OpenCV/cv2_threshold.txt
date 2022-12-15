@@ -1,0 +1,16 @@
+# 이미지 gray로 변환
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+ret, thresh = cv2.threshold(gray, 100, 255, cv2.THRESH_BINARY)
+
+# cv2.threshold(a,b,c,cv2.THRESH_BINARY)
+# a 그림에서 b보다 크면c 나머진0
+
+cv2.THRESH_BINARY: 픽셀 값이 임계값을 넘으면 value로 지정하고, 넘지 못하면 0으로 지정
+cv2.THRESH_BINARY_INV: cv.THRESH_BINARY의 반대
+cv2.THRESH_TRUNC: 픽셀 값이 임계값을 넘으면 value로 지정하고, 넘지 못하면 원래 값 유지
+cv2.THRESH_TOZERO: 픽셀 값이 임계값을 넘으면 원래 값 유지, 넘지 못하면 0으로 지정
+cv2.THRESH_TOZERO_INV: cv2.THRESH_TOZERO의 반대
+
+erode 
+기존 객체의 영역을 깎아 내는 연산으로 객체 크기가 감소
+구조 요소를 입력 영상에 적용하여 정확히 핏이 맞으면 해당 픽셀을 255로, 그 외에는 픽셀을 0으로 변경
