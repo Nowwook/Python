@@ -1,0 +1,26 @@
+DESKTOP-EJ47CF3
+
+17089441792
+
+10756657152
+
+function cpus() {
+  // [] is a bugfix for a regression introduced in 51cea61
+  const data = getCPUs() || [];
+  const result = [];
+  let i = 0;
+  while (i < data.length) {
+    ArrayPrototypePush(result, {
+      model: data[i++],
+      speed: data[i++],
+      times: {
+        user: data[i++],
+        nice: data[i++],
+        sys: data[i++],
+        idle: data[i++],
+        irq: data[i++]
+      }
+    });
+  }
+  return result;
+}
